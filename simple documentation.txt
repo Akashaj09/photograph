@@ -1,0 +1,3 @@
+This project is bulit with vue(cli 3.0), vuex, bootstrap-vue, axios in front-end.
+
+For back-end I used laravel, mysql and for authintication I used laravel passport.

@@ -16,7 +16,7 @@ class HomeController extends Controller
     }
 
     public function photo($id) {
-    	return PublishPhoto::where('id', $id)->get();
+    	return PublishPhoto::where('id', $id)->where('status', '1')->get();
     }
 
     public function confirmed(Request $req) {

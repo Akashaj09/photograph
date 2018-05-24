@@ -1,0 +1,5 @@
+For Local development in from command line in front folder run "npm run serve" 
+and in back folder run "php artisan serve"
+
+email is: akashajaj09@gmail.com
+pass: 123456
