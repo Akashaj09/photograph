@@ -12,7 +12,7 @@ use DB;
 class HomeController extends Controller
 {
     public function index() {
-    	return $data = PublishPhoto::where('status', '1')->paginate(24);
+    	return $data = PublishPhoto::where('status', '1')->latest()->paginate(24);
     }
 
     public function photo($id) {
