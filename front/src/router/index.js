@@ -12,6 +12,7 @@ import Photo from '@/pages/home/photo'
 import Home from '@/pages/home/home'
 import Edit from '@/pages/admin/editphoto'
 import Photos from '@/pages/admin/photo'
+import ErrorPage from '@/pages/home/error'
 
 Vue.use(vueRouter)
 
@@ -80,7 +81,8 @@ export default new vueRouter({
 		},
 		{
 			path: '*',
-			component: Index
+			component: ErrorPage,
+			name: 'errorpage'
 		}
 	],
 	mode: 'history',
